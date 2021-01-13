@@ -1,0 +1,33 @@
+.bienvenida {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+  max-height: 600px;
+  min-width: 100px;
+  background-color: white;
+  z-index: 1;
+}
+
+.bienvenida > img {
+  max-height: 100px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+.bienvenida > button {
+  background-color: #3569da;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+  margin-top: 10px;
+  height: 30px;
+  border-radius: gradient(rgb(0, 0, 0, 1), rgb(0, 0, 0, 0));
+  columns: #111111;
+  padding-left: 30px;
+  padding-right: 30px;
+}
